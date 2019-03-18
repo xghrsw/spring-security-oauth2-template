@@ -1,6 +1,6 @@
 package com.kuoncat.oauth2.authorizationcode.authorizationserver.service;
 
-import com.kuoncat.oauth2.authorizationcode.authorizationserver.entity.User;
+import com.kuoncat.oauth2.authorizationcode.entity.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -21,6 +21,6 @@ public class UserService implements UserDetailsService {
         user.setPassword(passwordEncoder.encode("12345"));
         user.setAuthorities("user,admin");
 
-        return null;
+        return user;
     }
 }

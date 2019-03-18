@@ -4,7 +4,7 @@ server:
 spring:
   # datasource
   datasource:
-    url: jdbc:mysql://localhost/oauth2-code-auth?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+    url: jdbc:mysql:///oauth2-code-auth?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false&serverTimezone=UTC
     username: cms
     password: wdit@123
     hikari:

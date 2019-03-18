@@ -1,4 +1,4 @@
-package com.kuoncat.oauth2.authorizationcode.authorizationserver.entity;
+package com.kuoncat.oauth2.authorizationcode.entity;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
